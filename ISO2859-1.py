@@ -102,7 +102,7 @@ def resolve_arrow(ac_val, sample_char, aql_value):
 # 샘플링 계산 및 결과 표시
 # -------------------------------
 with output_col:
-    st.subheader("샘플링 결과")
+    st.subheader("샘플링")
     
     sample_char, lot_start, lot_end = find_sample_code(lot_size, inspection_level)
 
@@ -143,3 +143,4 @@ with output_col:
             })
 
             st.table(result_df)
+
