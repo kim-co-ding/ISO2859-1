@@ -86,7 +86,7 @@ Re = Ac + 1
 
 # --- 결과 출력 ---
 st.subheader("[ 샘플링 수량 및 Ac/Re 계산결과 ]")
-st.write(f"1. LOT크기 범위: {lot_range[0]:,} ~ {lot_range[1]:,} 개")
-st.write(f"2. 시료문자: {code_letter}")
-st.write(f"3. 샘플링 수량: {adjusted_sample:,} 개")
-st.write(f"4. Ac/Re : {Ac} / {Re}")
+st.write(f"1.LOT크기 범위 : {lot_range[0]:,} ~ {lot_range[1]:,} 개")
+st.write(f"2.시료문자 : {code_letter}")
+st.write(f"3.샘플링 수량 : {adjusted_sample:,} 개")
+st.write(f"4.Ac/Re : {Ac} / {Re}")
