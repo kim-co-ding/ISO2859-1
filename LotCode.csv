@@ -1,0 +1,16 @@
+Start Lot Qty,End Lot Qty,S-1,S-2,S-3,S-4,G-1,G-2,G-3
+2,8,A,A,A,A,A,A,B
+9,15,A,A,A,A,A,B,C
+16,25,A,A,B,B,B,C,D
+26,50,A,B,B,C,C,D,E
+51,90,B,B,C,C,C,E,F
+91,150,B,B,C,D,D,F,G
+151,280,B,C,D,E,E,G,H
+281,500,B,C,D,E,F,H,J
+501,"1,200",C,C,E,F,G,J,K
+"1,201","3,200",C,D,E,G,H,K,L
+"3,201","10,000",C,D,F,G,J,L,M
+"10,001","35,000",C,D,F,H,K,M,N
+"35,001","150,000",D,E,G,J,L,N,P
+"150,001","500,000",D,E,G,J,M,P,Q
+"500,001",Over,D,E,H,K,N,Q,R
